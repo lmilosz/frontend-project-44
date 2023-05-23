@@ -19,7 +19,7 @@ const startRound = () => {
   const randomOperatorIndex = operators[getRandomNumber(0, operators.length - 1)];
   const number1 = getRandomNumber(1, 10);
   const number2 = getRandomNumber(1, 10);
-  const question = `${number1} ${randomOperatorIndex} ${number2}`;
+  const question = `Question: ${number1} ${randomOperatorIndex} ${number2}`;
   const correctAnswer = String(calculate(number1, randomOperatorIndex, number2));
   return [question, correctAnswer];
 };
