@@ -18,7 +18,7 @@ const startRound = () => {
   const randomIndex = generateRandomNumber(0, 9);
   const correctAnswer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
-  const question = progression.join(' ');
+  const question = `Question: ${progression.join(' ')}`;
   return [question, correctAnswer];
 };
 

@@ -12,7 +12,7 @@ const getGcd = (num1, num2) => {
 const startRound = () => {
   const number1 = generateRandomNumber(1, 100);
   const number2 = generateRandomNumber(1, 100);
-  const question = `${number1} ${number2}`;
+  const question = `Question: ${number1} ${number2}`;
   const trueAnswer = String(getGcd(number1, number2));
   return [question, trueAnswer];
 };
