@@ -63,3 +63,14 @@ make brain-progression
 ```
 пример установки и процесс игры
 [![asciicast](https://asciinema.org/a/Ymuu71TxyO8Lr5zqgiw6BbhnX.svg)](https://asciinema.org/a/Ymuu71TxyO8Lr5zqgiw6BbhnX)
+#
+### 5 игра - простое ли число?
+Описание: 
+Игроку показывается случайное число. Игрок должен определить является ли число простым (yes), или не является простым (no).
+
+чтобы запустить игру:
+```
+make brain-prime
+```
+пример установки и процесс игры
+[![asciicast](https://asciinema.org/a/LPh0sAZAIJ1OxGZQZIXlxJ6jF.svg)](https://asciinema.org/a/LPh0sAZAIJ1OxGZQZIXlxJ6jF)
