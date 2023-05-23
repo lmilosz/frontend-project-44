@@ -23,3 +23,14 @@ make brain-even
 ```
 пример установки и процесс игры
 [![asciicast](https://asciinema.org/a/KZkvqd864nG5MDnHNbtm6CT7j.svg)](https://asciinema.org/a/KZkvqd864nG5MDnHNbtm6CT7j)
+
+### 2 игра - калькулятор
+Описание: 
+пользователю показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ.
+
+чтобы запустить игру:
+```
+make brain-calc
+```
+пример установки и процесс игры
+[![asciicast](https://asciinema.org/a/902wisrEHb6nToRQpppHSpen1.svg)](https://asciinema.org/a/902wisrEHb6nToRQpppHSpen1)
