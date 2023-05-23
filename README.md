@@ -52,3 +52,14 @@ make brain-gcd
 ```
 пример установки и процесс игры
 [![asciicast](https://asciinema.org/a/YOwee4iNO53lSgko9Fe45rQPj.svg)](https://asciinema.org/a/YOwee4iNO53lSgko9Fe45rQPj)
+#
+### 4 игра - арифметическая прогрессия
+Описание: 
+Игроку показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+чтобы запустить игру:
+```
+make brain-progression
+```
+пример установки и процесс игры
+[![asciicast](https://asciinema.org/a/Ymuu71TxyO8Lr5zqgiw6BbhnX.svg)](https://asciinema.org/a/Ymuu71TxyO8Lr5zqgiw6BbhnX)
