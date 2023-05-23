@@ -10,7 +10,7 @@
 
 клонировать репозиторий
 ```
-https://github.com/lmilosz/frontend-project-44.git
+git clone https://github.com/lmilosz/frontend-project-44.git
 ```
 установить нужные пакеты
 ```
