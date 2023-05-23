@@ -4,14 +4,21 @@ import runGameLogic from '../gameLogic.js';
 const rules = 'What is the result of the expression?';
 
 const calculate = (num1, randOperator, num2) => {
+  let calculatedAnswer = '';
   switch (randOperator) {
     case '+':
-      return num1 + num2;
+      calculatedAnswer = num1 + num2;
+      break;
     case '-':
-      return num1 - num2;
+      calculatedAnswer = num1 - num2;
+      break;
     case '*':
-      return num1 * num2;
+      calculatedAnswer = num1 * num2;
+      break;
+    default:
+      break;
   }
+  return calculatedAnswer;
 };
 
 const startRound = () => {
