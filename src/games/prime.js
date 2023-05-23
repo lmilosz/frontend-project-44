@@ -13,11 +13,11 @@ const isPrime = (number) => {
   return true;
 };
 const startRound = () => {
-    const randomNumber = generateRandomNumber(2,100);
-    const question = `Question: ${randomNumber}`;
-    const correctAnswer = (isPrime(randomNumber) ? 'yes' : 'no');
-    return [question, correctAnswer];
-  };
-  const runPrimeGame = () => runGameLogic(rule, startRound);
-  
-  export default runPrimeGame;
+  const randomNumber = generateRandomNumber(2, 100);
+  const question = `Question: ${randomNumber}`;
+  const correctAnswer = (isPrime(randomNumber) ? 'yes' : 'no');
+  return [question, correctAnswer];
+};
+const runPrimeGame = () => runGameLogic(rule, startRound);
+
+export default runPrimeGame;
